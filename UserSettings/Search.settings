@@ -69,8 +69,11 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
+	"center"
 ]
 searchItemFavorites = [
+	"46756"
 ]
 savedSearchesSortOrder = 0
 showSavedSearchPanel = false
