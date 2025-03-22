@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 652
     height: 1301
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -354,23 +354,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d0a10000aca000000ea1000060a20000c4a10000a0a000003ca20000c4a0000054a2000082a10000dca100005ea1000090a10000eea100003ca10000b4a1000030a2000002a1000030a1000076a10000dca0000048a200001ea2000052a1000094a00000b8a000009ca100006aa10000f6a00000d0a0000024a1000006a20000
-      m_LastClickedID: 41478
-      m_ExpandedIDs: 50faffff8cfaffff20fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52afffff6aafffffa6b4ffff16faffff48faffff52faffff20fbffff0ea10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CabGroundSensor (2)
-        m_OriginalName: CabGroundSensor (2)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 41132
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -876,9 +876,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 4.9203773, y: 0.8481832, z: -15.526018}
+    m_Target: {x: 5.1800213, y: 1.1300733, z: -15.384036}
     speed: 2
-    m_Value: {x: 4.9203773, y: 0.8481832, z: -15.526018}
+    m_Value: {x: 5.1800213, y: 1.1300733, z: -15.384036}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -928,9 +928,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.06659787, y: 0.901954, z: -0.15043518, w: 0.3992655}
   m_Size:
-    m_Target: 0.43669987
+    m_Target: 0.7254269
     speed: 2
-    m_Value: 0.43669987
+    m_Value: 0.7254269
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1129,9 +1129,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 88ee0000
-    m_LastClickedID: 61064
-    m_ExpandedIDs: 000000007ea6000000ca9a3bffffff7f
+    m_SelectedIDs: 10aa0000
+    m_LastClickedID: 43536
+    m_ExpandedIDs: 0000000082a6000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1160,7 +1160,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007ea60000
+    m_ExpandedIDs: 0000000082a60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a4b60000942701000ca30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
