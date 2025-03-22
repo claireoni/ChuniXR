@@ -22,7 +22,9 @@ jobs:
           key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
             Library-
-
+      - name: Create Unity Cache Directory
+        run: |
+          mkdir -p C:/Users/ContainerAdministrator/AppData/Local/Unity/Caches
       # Build
       - name: Build EXE
         uses: game-ci/unity-builder@v4
