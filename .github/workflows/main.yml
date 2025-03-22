@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build App
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       # Checkout
       - name: Checkout repository
@@ -30,10 +30,8 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_CACHE: ~/.cache/unity3d
         with:
           targetPlatform: StandaloneWindows64
-          customImage: 'unityci/editor:ubuntu-2021.3.45f1-windows-mono-3.1.0'
           
       # Export
       - name: Export Project
@@ -42,10 +40,8 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_CACHE: ~/.cache/unity3d
         with:
           targetPlatform: StandaloneWindows64
-          customimage: 'unityci/editor:ubuntu-2021.3.45f1-windows-mono-3.1.0'
           buildsPath: exported
         
       # Upload exported Android Studio project
