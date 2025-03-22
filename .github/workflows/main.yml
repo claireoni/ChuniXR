@@ -25,7 +25,7 @@ jobs:
       - name: Activate Unity
         uses: game-ci/unity-activate@v2
         with:
-          unityVersion: 6000.0.43f1
+          unityVersion: 2023.2.20f1
 
       # Build
       - name: Build EXE
