@@ -1,4 +1,8 @@
 .vs/*
+UserSettings/*
 Library/*
 Logs/*
 *.log
+
+# DO NOT INCLUDE THE FUCKING SYMBOLS
+obj/*
