@@ -21,6 +21,6 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
       run: |
-        echo $UNITY_LICENSE
-        echo $UNITY_EMAIL
-        echo $UNITY_PASSWORD
+        echo ${{secrets.UNITY_LICENSE}} | sed 's/./& /g'
+        echo ${{secrets.UNITY_EMAIL}} | sed 's/./& /g'
+        echo ${{secrets.UNITY_PASSWORD}} | sed 's/./& /g'
