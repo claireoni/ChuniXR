@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  m_BakeOnSceneLoad: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -93,8 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 38630846684c9e343bd1cbc9f78e0a28, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 78151f5e58fb9f749bd5225f789faa27, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -188,7 +188,7 @@ Light:
   m_GameObject: {fileID: 20836037}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -229,7 +229,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 20836050}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &58896753 stripped
@@ -328,7 +328,7 @@ Light:
   m_GameObject: {fileID: 58896753}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -369,7 +369,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 58896766}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &120707007 stripped
@@ -468,7 +468,7 @@ Light:
   m_GameObject: {fileID: 120707007}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -509,7 +509,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 120707020}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &177709609 stripped
@@ -608,7 +608,7 @@ Light:
   m_GameObject: {fileID: 177709609}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -649,7 +649,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 177709622}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &186925260 stripped
@@ -748,7 +748,7 @@ Light:
   m_GameObject: {fileID: 186925260}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -789,7 +789,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -816,7 +816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 186925273}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &188217253 stripped
@@ -888,7 +888,7 @@ Light:
   m_GameObject: {fileID: 188217253}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -929,7 +929,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 188217266}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &213401367 stripped
@@ -1028,7 +1028,7 @@ Light:
   m_GameObject: {fileID: 213401367}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1069,7 +1069,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 213401380}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!4 &214718751 stripped
@@ -1294,7 +1294,7 @@ Light:
   m_GameObject: {fileID: 272858194}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1335,7 +1335,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 272858207}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &291044043 stripped
@@ -1434,7 +1434,7 @@ Light:
   m_GameObject: {fileID: 291044043}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1475,7 +1475,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1502,7 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 291044056}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &296678850 stripped
@@ -1574,7 +1574,7 @@ Light:
   m_GameObject: {fileID: 296678850}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1615,7 +1615,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1642,7 +1642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 296678863}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!4 &390807620
@@ -1806,7 +1806,7 @@ Light:
   m_GameObject: {fileID: 483473295}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1847,7 +1847,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 483473308}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &506986589 stripped
@@ -1946,7 +1946,7 @@ Light:
   m_GameObject: {fileID: 506986589}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1987,7 +1987,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 506986602}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &512746602 stripped
@@ -2086,7 +2086,7 @@ Light:
   m_GameObject: {fileID: 512746602}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2127,7 +2127,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2154,7 +2154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 512746615}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &525925147
@@ -2380,7 +2380,7 @@ Light:
   m_GameObject: {fileID: 611365353}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2421,7 +2421,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2448,7 +2448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 611365366}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &612955994 stripped
@@ -2520,7 +2520,7 @@ Light:
   m_GameObject: {fileID: 612955994}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2561,7 +2561,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2588,7 +2588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 612956007}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &735172412 stripped
@@ -2660,7 +2660,7 @@ Light:
   m_GameObject: {fileID: 735172412}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2701,7 +2701,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2728,7 +2728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 735172425}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &770058384 stripped
@@ -2800,7 +2800,7 @@ Light:
   m_GameObject: {fileID: 770058384}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2841,7 +2841,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2868,7 +2868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 770058397}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &867840308 stripped
@@ -2940,7 +2940,7 @@ Light:
   m_GameObject: {fileID: 867840308}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -2981,7 +2981,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3008,7 +3008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 867840321}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!4 &943855444 stripped
@@ -3085,7 +3085,7 @@ Light:
   m_GameObject: {fileID: 1032635143}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -3126,7 +3126,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3153,7 +3153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1032635156}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1051320454 stripped
@@ -3225,7 +3225,7 @@ Light:
   m_GameObject: {fileID: 1051320454}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -3266,7 +3266,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3293,7 +3293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1051320468}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1056987220
@@ -3486,7 +3486,7 @@ Light:
   m_GameObject: {fileID: 1089158850}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -3527,7 +3527,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3554,7 +3554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1089158863}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1098727041 stripped
@@ -3653,7 +3653,7 @@ Light:
   m_GameObject: {fileID: 1106293022}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -3694,7 +3694,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3721,7 +3721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1106293035}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1133374982 stripped
@@ -3793,7 +3793,7 @@ Light:
   m_GameObject: {fileID: 1133374982}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -3834,7 +3834,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3861,7 +3861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1133374995}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1162210069 stripped
@@ -3933,7 +3933,7 @@ Light:
   m_GameObject: {fileID: 1162210069}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -3974,7 +3974,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4001,7 +4001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1162210082}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1185752617 stripped
@@ -4130,7 +4130,7 @@ Light:
   m_GameObject: {fileID: 1222101970}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -4171,7 +4171,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4198,7 +4198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1222101983}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1244070806
@@ -4391,7 +4391,7 @@ Light:
   m_GameObject: {fileID: 1320071398}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -4432,7 +4432,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4459,7 +4459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1320071411}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1334210330
@@ -4652,7 +4652,7 @@ Light:
   m_GameObject: {fileID: 1428998193}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -4693,7 +4693,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4720,7 +4720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1428998206}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1001 &1475321931
@@ -4957,7 +4957,7 @@ Light:
   m_GameObject: {fileID: 1549090672}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -4998,7 +4998,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5025,7 +5025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1549090685}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1632837630 stripped
@@ -5097,7 +5097,7 @@ Light:
   m_GameObject: {fileID: 1632837630}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -5138,7 +5138,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5165,7 +5165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1632837643}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1646116439 stripped
@@ -5237,7 +5237,7 @@ Light:
   m_GameObject: {fileID: 1646116439}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -5278,7 +5278,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5305,7 +5305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1646116452}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1752520895 stripped
@@ -5377,7 +5377,7 @@ Light:
   m_GameObject: {fileID: 1752520895}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -5418,7 +5418,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5445,7 +5445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1752520908}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1 &1761328076 stripped
@@ -5517,7 +5517,7 @@ Light:
   m_GameObject: {fileID: 1761328076}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
+  m_Type: 3
   m_Color: {r: 1, g: 0.6981857, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -5558,7 +5558,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5585,7 +5585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09dca0736c005c40af3c52386244cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLight: {fileID: 0}
+  targetLight: {fileID: 1761328089}
   untouchedColor: {r: 1, g: 0.5, b: 0, a: 1}
   touchedColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!81 &1913757729
@@ -6369,8 +6369,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 5696391740774618278, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5696391740774618278, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 5696391740774618278, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03783
+      value: 0.03782997
       objectReference: {fileID: 0}
     - target: {fileID: 5696391740774618278, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6378,7 +6386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5696391740774618278, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 5696391740774618278, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6419,6 +6427,10 @@ PrefabInstance:
     - target: {fileID: 7923880205125425456, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923880205125425456, guid: f7815c3925e2c964c973c2eb7f1d4902, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6498,6 +6510,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 1204670897544530434, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204670897544530434, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204670897544530434, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03275
       objectReference: {fileID: 0}
@@ -6507,7 +6527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1204670897544530434, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 1204670897544530434, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6540,6 +6560,10 @@ PrefabInstance:
     - target: {fileID: 3009133267201543753, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009133267201543753, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3009359126565593563, guid: 3939ab7f8940ece498739ddc9abf9b7c, type: 3}
       propertyPath: m_Convex
@@ -6575,6 +6599,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 3401223883370653026, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401223883370653026, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401223883370653026, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0076380013
       objectReference: {fileID: 0}
@@ -6584,7 +6616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3401223883370653026, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 3401223883370653026, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6617,6 +6649,10 @@ PrefabInstance:
     - target: {fileID: 7275639166878797939, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275639166878797939, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8900022603493668317, guid: 5d8f20cb6ff5fc74f9f170d9ce48c5d1, type: 3}
       propertyPath: m_Convex
@@ -6655,6 +6691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 596369695460416954, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3214644630646964303, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -6662,6 +6702,14 @@ PrefabInstance:
     - target: {fileID: 3214644630646964303, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6781677519036777802, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6781677519036777802, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 6781677519036777802, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6673,7 +6721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6781677519036777802, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6781677519036777802, guid: 70e1be83d69c4ee4991b71a161d7d130, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6729,6 +6777,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 925842332217992, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 925842332217992, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 925842332217992, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0072350022
       objectReference: {fileID: 0}
@@ -6738,7 +6794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 925842332217992, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 925842332217992, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6771,6 +6827,10 @@ PrefabInstance:
     - target: {fileID: 1229156699819569045, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1229156699819569045, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5654539141082493046, guid: 40f62315d49d6a74ebb2854bbd0b82e8, type: 3}
       propertyPath: m_Convex
@@ -6837,6 +6897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1830154880986441683, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4305922905229048654, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -6844,6 +6908,14 @@ PrefabInstance:
     - target: {fileID: 4305922905229048654, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278561694787370361, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278561694787370361, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 5278561694787370361, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6855,7 +6927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5278561694787370361, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 5278561694787370361, guid: 8ba2b7f03742efc4889f93d7081d5ca7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6911,6 +6983,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 3682272846393483532, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682272846393483532, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682272846393483532, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.02261
       objectReference: {fileID: 0}
@@ -6920,7 +7000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3682272846393483532, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 3682272846393483532, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6953,6 +7033,10 @@ PrefabInstance:
     - target: {fileID: 6643737311401043083, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643737311401043083, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7783836328647009740, guid: 8cb32eb4dfef4144295baa526ce89614, type: 3}
       propertyPath: m_Convex
@@ -7009,6 +7093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 65496482439811815, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8713109997042158650, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -7016,6 +7104,14 @@ PrefabInstance:
     - target: {fileID: 8713109997042158650, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9042573970631983206, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9042573970631983206, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 9042573970631983206, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7027,7 +7123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9042573970631983206, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 9042573970631983206, guid: 8f828902eb2e65345b4481a3a77ad485, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7103,6 +7199,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 455077899004421695, guid: 0ece744af91059041828a099c65ce56b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412591692663099741, guid: 0ece744af91059041828a099c65ce56b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412591692663099741, guid: 0ece744af91059041828a099c65ce56b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 2412591692663099741, guid: 0ece744af91059041828a099c65ce56b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03243
@@ -7113,7 +7221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2412591692663099741, guid: 0ece744af91059041828a099c65ce56b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 2412591692663099741, guid: 0ece744af91059041828a099c65ce56b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7177,6 +7285,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 2031295049537439406, guid: 681437878814cdf4597204f794897599, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031295049537439406, guid: 681437878814cdf4597204f794897599, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031295049537439406, guid: 681437878814cdf4597204f794897599, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.017369999
       objectReference: {fileID: 0}
@@ -7186,7 +7302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2031295049537439406, guid: 681437878814cdf4597204f794897599, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 2031295049537439406, guid: 681437878814cdf4597204f794897599, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7227,6 +7343,10 @@ PrefabInstance:
     - target: {fileID: 3027810485871134614, guid: 681437878814cdf4597204f794897599, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3027810485871134614, guid: 681437878814cdf4597204f794897599, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7275,6 +7395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3455602594110518733, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5777714545411940631, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -7282,6 +7406,14 @@ PrefabInstance:
     - target: {fileID: 5777714545411940631, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719256018476876021, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719256018476876021, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 7719256018476876021, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7293,7 +7425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7719256018476876021, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 7719256018476876021, guid: b205ed1fc15129442bc260937346f1e9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7387,6 +7519,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 3294426007956578105, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294426007956578105, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294426007956578105, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.02741
       objectReference: {fileID: 0}
@@ -7396,7 +7536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294426007956578105, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 3294426007956578105, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7437,6 +7577,10 @@ PrefabInstance:
     - target: {fileID: 8088102222894496757, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088102222894496757, guid: f846d339b5c36a548bcfeeb957b5909d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7531,6 +7675,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5078117248192809079, guid: 0ea2dd4ad37f1154dbe1372c6efd6ea2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6550985192558670137, guid: 0ea2dd4ad37f1154dbe1372c6efd6ea2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6550985192558670137, guid: 0ea2dd4ad37f1154dbe1372c6efd6ea2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 6550985192558670137, guid: 0ea2dd4ad37f1154dbe1372c6efd6ea2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03783
@@ -7541,7 +7697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6550985192558670137, guid: 0ea2dd4ad37f1154dbe1372c6efd6ea2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6550985192558670137, guid: 0ea2dd4ad37f1154dbe1372c6efd6ea2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7616,6 +7772,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5837700876096933450, guid: bb2e418645eb33546ac0a9ec43368e20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300579860724922770, guid: bb2e418645eb33546ac0a9ec43368e20, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300579860724922770, guid: bb2e418645eb33546ac0a9ec43368e20, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 6300579860724922770, guid: bb2e418645eb33546ac0a9ec43368e20, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.002420001
@@ -7626,7 +7794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6300579860724922770, guid: bb2e418645eb33546ac0a9ec43368e20, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6300579860724922770, guid: bb2e418645eb33546ac0a9ec43368e20, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7690,6 +7858,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4600585864730899114, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600585864730899114, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600585864730899114, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.012680001
       objectReference: {fileID: 0}
@@ -7699,7 +7875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4600585864730899114, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 4600585864730899114, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7732,6 +7908,10 @@ PrefabInstance:
     - target: {fileID: 8847525826791561950, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847525826791561950, guid: 91f233f3fc5f49042b3e026ae35adbfd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7789,6 +7969,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 2101965207358778946, guid: 0214d8a71b9658d4eadfdd404f761826, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392685714803250843, guid: 0214d8a71b9658d4eadfdd404f761826, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392685714803250843, guid: 0214d8a71b9658d4eadfdd404f761826, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 7392685714803250843, guid: 0214d8a71b9658d4eadfdd404f761826, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.017369999
@@ -7799,7 +7991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7392685714803250843, guid: 0214d8a71b9658d4eadfdd404f761826, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 7392685714803250843, guid: 0214d8a71b9658d4eadfdd404f761826, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7968,6 +8160,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7780163191147824776, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7780163191147824776, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7780163191147824776, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.012290001
       objectReference: {fileID: 0}
@@ -7977,7 +8177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780163191147824776, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 7780163191147824776, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8010,6 +8210,10 @@ PrefabInstance:
     - target: {fileID: 8886024484709019091, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8886024484709019091, guid: eec811b4b8fdd484ca8f3330fa03bb5f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8114,6 +8318,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 990311842478373868, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 990311842478373868, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 990311842478373868, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.022390002
       objectReference: {fileID: 0}
@@ -8123,7 +8335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 990311842478373868, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 990311842478373868, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8156,6 +8368,10 @@ PrefabInstance:
     - target: {fileID: 7988458883655293566, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988458883655293566, guid: 423df59c47bd3d04c8e4542977b7be9a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8219,6 +8435,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4292750981671590801, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4292750981671590801, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4292750981671590801, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0277
       objectReference: {fileID: 0}
@@ -8228,7 +8452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4292750981671590801, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 4292750981671590801, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8261,6 +8485,10 @@ PrefabInstance:
     - target: {fileID: 5881969941307391802, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881969941307391802, guid: ebfe5275dbcca7f468b0235d2acb7ddd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8334,6 +8562,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 13368407535525749, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 13368407535525749, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 13368407535525749, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.022390002
       objectReference: {fileID: 0}
@@ -8343,7 +8579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 13368407535525749, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 13368407535525749, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8376,6 +8612,10 @@ PrefabInstance:
     - target: {fileID: 1335964188311539077, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335964188311539077, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6175140120468016771, guid: 4593bcf0163803f4ea67b739878b7999, type: 3}
       propertyPath: m_Convex
@@ -8478,6 +8718,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4833593134891526414, guid: 00be88389e56e0440a82d65d60fdf44e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299496765819371564, guid: 00be88389e56e0440a82d65d60fdf44e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299496765819371564, guid: 00be88389e56e0440a82d65d60fdf44e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 8299496765819371564, guid: 00be88389e56e0440a82d65d60fdf44e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.017649999
@@ -8488,7 +8740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8299496765819371564, guid: 00be88389e56e0440a82d65d60fdf44e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 8299496765819371564, guid: 00be88389e56e0440a82d65d60fdf44e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8544,6 +8796,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 318955532739833085, guid: cc35c6688b595204386443629d28deff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 318955532739833085, guid: cc35c6688b595204386443629d28deff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 318955532739833085, guid: cc35c6688b595204386443629d28deff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.017649999
       objectReference: {fileID: 0}
@@ -8553,7 +8813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 318955532739833085, guid: cc35c6688b595204386443629d28deff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 318955532739833085, guid: cc35c6688b595204386443629d28deff, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8595,6 +8855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8505833506534822965, guid: cc35c6688b595204386443629d28deff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8624,6 +8888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1399302882283798261, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4325516438410056142, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -8631,6 +8899,14 @@ PrefabInstance:
     - target: {fileID: 4325516438410056142, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135448230688337161, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135448230688337161, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 6135448230688337161, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8642,7 +8918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6135448230688337161, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6135448230688337161, guid: 08ffe593ddf9b6943b046b0ef36acbd5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8732,6 +9008,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6505253192456615624, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505253192456615624, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505253192456615624, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03748
       objectReference: {fileID: 0}
@@ -8741,7 +9025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6505253192456615624, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6505253192456615624, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8774,6 +9058,10 @@ PrefabInstance:
     - target: {fileID: 7329767874781972719, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329767874781972719, guid: 00f1c48437daecf4b846cf2ca607084f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8826,6 +9114,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 214718751}
     m_Modifications:
     - target: {fileID: 1316225391198557621, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316225391198557621, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316225391198557621, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03275
       objectReference: {fileID: 0}
@@ -8835,7 +9131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1316225391198557621, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 1316225391198557621, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8876,6 +9172,10 @@ PrefabInstance:
     - target: {fileID: 6538234943199224843, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538234943199224843, guid: 6353996f0c1e23e4ca33c0f8536a6c74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9217,6 +9517,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6060933457212812430, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060933457212812430, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060933457212812430, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0277
       objectReference: {fileID: 0}
@@ -9226,7 +9534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060933457212812430, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6060933457212812430, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9259,6 +9567,10 @@ PrefabInstance:
     - target: {fileID: 8902698703851493342, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
       propertyPath: m_Name
       value: CabGroundSensor (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902698703851493342, guid: 0972c246cc1413e4586fed11dbf407fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9297,6 +9609,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5210700852932687131, guid: 42c69f13e5fba5a419f054a9b0c6072d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021828613986679948, guid: 42c69f13e5fba5a419f054a9b0c6072d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021828613986679948, guid: 42c69f13e5fba5a419f054a9b0c6072d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 6021828613986679948, guid: 42c69f13e5fba5a419f054a9b0c6072d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03748
@@ -9307,7 +9631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6021828613986679948, guid: 42c69f13e5fba5a419f054a9b0c6072d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6021828613986679948, guid: 42c69f13e5fba5a419f054a9b0c6072d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9366,6 +9690,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2289039710084576792, guid: 2d07871266145cf4d872d0c25158fffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7750636803330130820, guid: 2d07871266145cf4d872d0c25158fffc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7750636803330130820, guid: 2d07871266145cf4d872d0c25158fffc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 7750636803330130820, guid: 2d07871266145cf4d872d0c25158fffc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03243
@@ -9376,7 +9712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7750636803330130820, guid: 2d07871266145cf4d872d0c25158fffc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 7750636803330130820, guid: 2d07871266145cf4d872d0c25158fffc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9461,6 +9797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4973899098706554935, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5399685268288644415, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -9468,6 +9808,14 @@ PrefabInstance:
     - target: {fileID: 5399685268288644415, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011564743178325845, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011564743178325845, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 9011564743178325845, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9479,7 +9827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9011564743178325845, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 9011564743178325845, guid: 825815cc8ffe80b4faa656afd5f50e1d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9616,6 +9964,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3370213826656133448, guid: 1b4f73cef77c0d747b3158d2fa8255e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328077989417319042, guid: 1b4f73cef77c0d747b3158d2fa8255e9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328077989417319042, guid: 1b4f73cef77c0d747b3158d2fa8255e9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
+      objectReference: {fileID: 0}
     - target: {fileID: 7328077989417319042, guid: 1b4f73cef77c0d747b3158d2fa8255e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.012680001
@@ -9626,7 +9986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7328077989417319042, guid: 1b4f73cef77c0d747b3158d2fa8255e9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 7328077989417319042, guid: 1b4f73cef77c0d747b3158d2fa8255e9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9752,6 +10112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 105651002101581267, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5464173940629185912, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -9759,6 +10123,14 @@ PrefabInstance:
     - target: {fileID: 5464173940629185912, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866979276962702625, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866979276962702625, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 6866979276962702625, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9770,7 +10142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6866979276962702625, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 6866979276962702625, guid: d78023b05dfecf047a208555fc37edbf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9829,6 +10201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabGroundSensor (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 66188396979017037, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2672479626405715230, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -9836,6 +10212,14 @@ PrefabInstance:
     - target: {fileID: 2672479626405715230, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673380653697704520, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673380653697704520, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.0247006
       objectReference: {fileID: 0}
     - target: {fileID: 2673380653697704520, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9847,7 +10231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2673380653697704520, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00846
+      value: 0.0094
       objectReference: {fileID: 0}
     - target: {fileID: 2673380653697704520, guid: 3bc865886bd6c5245b566c89273de812, type: 3}
       propertyPath: m_LocalRotation.w
