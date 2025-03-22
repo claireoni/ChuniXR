@@ -3,7 +3,57 @@ guid: dae0944fff8c1b74da553837d0710f97
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Accent
+    second: {fileID: 2100000, guid: 5d1678b7e533a52498fbe3d28e788de2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AirTex
+    second: {fileID: 2100000, guid: ea5fe0c9eb048604c85f6064b637b9ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EmissiveBase
+    second: {fileID: 2100000, guid: 27bdadc9f705a3b46b6580ecc77be443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorMat
+    second: {fileID: 2100000, guid: 5c67cb8217d68974e998f1037510456e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassPanel
+    second: {fileID: 2100000, guid: 14289a3d59bed4f4199eb090b528c15e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GroundSlider
+    second: {fileID: 2100000, guid: 6f1e5631bcc07c14a9a0c33eca57ea2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEDs
+    second: {fileID: 2100000, guid: 1dc1638f0fdcfc94695927c7303c6e15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatteBase
+    second: {fileID: 2100000, guid: cb3cc8a37a920ad4da472bb57fb57c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: c669ea5073f7a384984ebc69e50fcc88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShinyBase
+    second: {fileID: 2100000, guid: 6617f84d4d0650e4eb86f226f14a126c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
