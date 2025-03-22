@@ -3,7 +3,7 @@ name: Build Project
 on: 
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          targetPlatform: Windows
+          targetPlatform: StandaloneWindows64
           customImage: 'unityci/editor:windows-6000.0.43f1-windows-il2cpp-3.1.0'
           
       # Export
@@ -42,7 +42,7 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          targetPlatform: Windows
+          targetPlatform: StandaloneWindows64
           customimage: 'unityci/editor:windows-6000.0.43f1-windows-il2cpp-3.1.0'
           buildsPath: exported
         
