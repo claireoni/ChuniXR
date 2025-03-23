@@ -2,8 +2,7 @@ name: Build Project
 
 on: 
   push:
-    branches:
-      - [ "main" , "workflow" ]
+    branches: [ "main" , "workflow" ]
   workflow_dispatch:
 
 jobs:
