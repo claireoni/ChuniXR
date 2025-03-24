@@ -14,6 +14,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Cache Docker Image
+      - name: Restore Cached Docker Image
+        run: |
+          if (Test-Path "C:\docker-cache\image.tar") {
+            docker load -i C:\docker-cache\image.tar
+          }
+        shell: powershell
+
+      - name: Pull UnityCI Docker Image
+        run: |
+          docker pull unityci/editor:windows-6000.0.43f1-windows-il2cpp-3
+          mkdir -Force C:\docker-cache
+          docker save unityci/editor:windows-6000.0.43f1-windows-il2cpp-3 -o C:\docker-cache\image.tar
+        shell: powershell
+
+      - name: Cache Docker Image
+        uses: actions/cache@v4
+        with:
+          path: C:\docker-cache\image.tar
+          key: docker-windows-unityci-${{ github.sha }}
+          restore-keys: |
+            docker-windows-unityci-
+
       # Cache Unity Library
       - uses: actions/cache@v4
         with:
