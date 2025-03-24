@@ -4,6 +4,7 @@ Library/*
 Logs/*
 *.log
 Temp/*
+.vscode/*
 # DO NOT INCLUDE THE FUCKING SYMBOLS
 obj/*
 *.htm
