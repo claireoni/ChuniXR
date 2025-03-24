@@ -3,6 +3,6 @@ UserSettings/*
 Library/*
 Logs/*
 *.log
-
+Temp/*
 # DO NOT INCLUDE THE FUCKING SYMBOLS
 obj/*
