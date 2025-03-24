@@ -42,8 +42,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Logo
+    second: {fileID: 2100000, guid: c75a5647e66b1d14bab1a41200972547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MatteBase
     second: {fileID: 2100000, guid: cb3cc8a37a920ad4da472bb57fb57c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Penguin
+    second: {fileID: 2100000, guid: 096be18e04f956f40ac9f2eeb95caf18, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
