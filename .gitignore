@@ -2,15 +2,8 @@
 UserSettings/*
 Library/*
 Logs/*
-<<<<<<< HEAD
 *.log
 Temp/*
 # DO NOT INCLUDE THE FUCKING SYMBOLS
 obj/*
 *.htm
-=======
-uWindowCapture.log
-
-# DO NOT INCLUDE THE FUCKING SYMBOLS
-obj/*
->>>>>>> 157ba2f53a251c28317550e686e3d663986babd2
