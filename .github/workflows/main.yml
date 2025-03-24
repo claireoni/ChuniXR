@@ -22,12 +22,6 @@ jobs:
           restore-keys: |
             Library-${{ runner.os }}-
 
-      # Cache Unity Cache Files
-      - uses: actions/cache@v4
-        with:
-          path: C:/Users/ContainerAdministrator/AppData/Local/Unity/Caches
-          key: unity-cache-${{ runner.os }}
-
       # Build
       - name: Build App
         uses: game-ci/unity-builder@v4
@@ -39,7 +33,6 @@ jobs:
           targetPlatform: StandaloneWindows64
           buildName: ChuniXR
           buildsPath: exported
-          verbosity: minimal  # Reduce logging for faster execution
 
       # Cache built project to avoid re-uploading unchanged builds
       - uses: actions/cache@v4
