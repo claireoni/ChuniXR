@@ -2,7 +2,7 @@ name: Build Project
 
 on: 
   push:
-    branches: [ "main" , "workflow" ]
+    branches: [ "main", "workflow" ]
   workflow_dispatch:
 
 jobs:
@@ -10,21 +10,27 @@ jobs:
     name: Build App
     runs-on: windows-latest
     steps:
-      # Checkout
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Cache
-      - uses: actions/cache@v3
+      # Cache Unity Library
+      - uses: actions/cache@v4
         with:
           path: Library
-          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          key: Library-${{ runner.os }}-${{ hashFiles('Packages/manifest.json', 'ProjectSettings/ProjectVersion.txt') }}
           restore-keys: |
-            Library-
+            Library-${{ runner.os }}-
 
-      - name: Create Unity Cache Directory
-        run: |
-          mkdir -p C:/Users/ContainerAdministrator/AppData/Local/Unity/Caches
+      # Cache Unity Cache Files
+      - uses: actions/cache@v4
+        with:
+          path: C:/Users/ContainerAdministrator/AppData/Local/Unity/Caches
+          key: unity-cache-${{ runner.os }}
+
+      # Cache Unity installation to avoid reinstalling
+      - name: Cache Unity
+        uses: game-ci/unity-cache@v2
 
       # Build
       - name: Build App
@@ -37,9 +43,17 @@ jobs:
           targetPlatform: StandaloneWindows64
           buildName: ChuniXR
           buildsPath: exported
+          verbosity: minimal  # Reduce logging for faster execution
 
-      # Upload exported Android Studio project
+      # Cache built project to avoid re-uploading unchanged builds
+      - uses: actions/cache@v4
+        with:
+          path: exported
+          key: build-output-${{ github.sha }}
+
+      # Upload exported build
       - uses: actions/upload-artifact@v4
         with:
           name: Exported
           path: exported
+          compression-level: 0  # Faster uploads
