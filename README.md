@@ -7,4 +7,4 @@ Contributions welcome.
 
 ## Specifications
 
-- **Unity Version**: 6000.38f1
+- **Unity Version**: 6000.43f1
