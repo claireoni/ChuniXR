@@ -28,10 +28,6 @@ jobs:
           path: C:/Users/ContainerAdministrator/AppData/Local/Unity/Caches
           key: unity-cache-${{ runner.os }}
 
-      # Cache Unity installation to avoid reinstalling
-      - name: Cache Unity
-        uses: game-ci/unity-cache@v2
-
       # Build
       - name: Build App
         uses: game-ci/unity-builder@v4
