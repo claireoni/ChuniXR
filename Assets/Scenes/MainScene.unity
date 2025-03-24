@@ -1010,8 +1010,8 @@ GameObject:
   - component: {fileID: 558129021}
   - component: {fileID: 558129025}
   - component: {fileID: 558129024}
-  - component: {fileID: 558129023}
   - component: {fileID: 558129022}
+  - component: {fileID: 558129026}
   m_Layer: 0
   m_Name: AimeReader
   m_TagString: Untagged
@@ -1050,27 +1050,6 @@ MonoBehaviour:
   unpressedColor: {r: 1, g: 0.5, b: 0, a: 1}
   pressedColor: {r: 1, g: 0, b: 1, a: 1}
   keyToPress: 13
---- !u!65 &558129023
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558129020}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &558129024
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1122,6 +1101,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558129020}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &558129026
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558129020}
+  m_Material: {fileID: 13400000, guid: 10bde48ef542d6a4fbee12145283824a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &611365353 stripped
 GameObject:

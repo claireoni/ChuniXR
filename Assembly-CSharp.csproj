@@ -1378,6 +1378,10 @@
       <Project>{908696F3-B455-4B92-2093-0AEBB3342C7A}</Project>
       <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{B167D385-7781-67AD-F06E-3129116716CD}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
       <Project>{7FA1F632-7D01-8F65-8699-88694178F51A}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
