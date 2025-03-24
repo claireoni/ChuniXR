@@ -6,3 +6,4 @@ Logs/*
 Temp/*
 # DO NOT INCLUDE THE FUCKING SYMBOLS
 obj/*
+*.htm
