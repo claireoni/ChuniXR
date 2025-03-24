@@ -2,7 +2,7 @@
 UserSettings/*
 Library/*
 Logs/*
-*.log
+uWindowCapture.log
 
 # DO NOT INCLUDE THE FUCKING SYMBOLS
 obj/*
