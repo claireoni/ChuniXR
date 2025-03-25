@@ -53,11 +53,23 @@ jobs:
           customParameters: '-debugSymbols false'
 
       # Cache built project to avoid re-uploading unchanged builds
-      - uses: actions/cache@v4
-        with:
-          path: exported
-          key: build-output-${{ github.sha }}
+      # - uses: actions/cache@v4
+      #   with:
+      #     path: exported
+      #     key: build-output-${{ github.sha }}
 
+      # Remove debug symbols (ChuniXR_BackUpThisFolder_ButDontShipItWithYourGame)
+      - name: Remove Debug Symbols
+        run: |
+          $debug_symbols_path = "exported/ChuniXR_BackUpThisFolder_ButDontShipItWithYourGame"
+          if (Test-Path $debug_symbols_path) {
+            Remove-Item -Recurse -Force $debug_symbols_path
+            Write-Host "Debug symbols folder removed."
+          } else {
+            Write-Host "Debug symbols folder not found."
+          }
+        shell: powershell
+      
       # Upload exported build
       - uses: actions/upload-artifact@v4
         with:
