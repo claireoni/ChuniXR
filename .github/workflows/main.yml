@@ -19,9 +19,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: C:\docker-cache\image.tar
-          key: docker-windows-unityci-${{ github.sha }}
+          key: docker-windows-unityci
           restore-keys: |
-            docker-windows-unityci-
+            docker-windows-unityci
 
       # Restore Cached Docker Image
       - name: Restore Cached Docker Image
