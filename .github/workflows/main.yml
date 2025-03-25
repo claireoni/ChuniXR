@@ -31,6 +31,16 @@ jobs:
           }
         shell: powershell
 
+      # Pull UnityCI Docker Image if not cached
+      - name: Pull UnityCI Docker Image
+        run: |
+          if (-not (Test-Path "C:\docker-cache\image.tar")) {
+            docker pull unityci/editor:windows-6000.0.43f1-windows-il2cpp-3
+            mkdir -Force C:\docker-cache
+            docker save unityci/editor:windows-6000.0.43f1-windows-il2cpp-3 -o C:\docker-cache\image.tar
+          }
+        shell: powershell
+
       # Cache Unity Library
       - uses: actions/cache@v4
         with:
