@@ -61,7 +61,7 @@ jobs:
       # Remove debug symbols (ChuniXR_BackUpThisFolder_ButDontShipItWithYourGame)
       - name: Remove Debug Symbols
         run: |
-          $debug_symbols_path = "exported/ChuniXR_BackUpThisFolder_ButDontShipItWithYourGame"
+          $debug_symbols_path = "exported/StandaloneWindows64/ChuniXR_BackUpThisFolder_ButDontShipItWithYourGame"
           if (Test-Path $debug_symbols_path) {
             Remove-Item -Recurse -Force $debug_symbols_path
             Write-Host "Debug symbols folder removed."
