@@ -2,7 +2,7 @@ name: Build Project
 
 on: 
   push:
-    branches: [ "main" , "workflow" ]
+    branches: [ "main", "workflow" ]
   workflow_dispatch:
 
 jobs:
@@ -10,21 +10,44 @@ jobs:
     name: Build App
     runs-on: windows-latest
     steps:
-      # Checkout
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Cache
-      - uses: actions/cache@v3
+      # Cache Docker Image (Restoration before checking)
+      - name: Cache Docker Image
+        uses: actions/cache@v4
+        with:
+          path: C:\docker-cache\image.tar
+          key: docker-windows-unityci
+          restore-keys: |
+            docker-windows-unityci
+
+      # Restore Cached Docker Image
+      - name: Restore Cached Docker Image
+        run: |
+          if (Test-Path "C:\docker-cache\image.tar") {
+            docker load -i C:\docker-cache\image.tar
+          }
+        shell: powershell
+
+      # Pull UnityCI Docker Image if not cached
+      - name: Pull UnityCI Docker Image
+        run: |
+          if (-not (Test-Path "C:\docker-cache\image.tar")) {
+            docker pull unityci/editor:windows-6000.0.43f1-windows-il2cpp-3
+            mkdir -Force C:\docker-cache
+            docker save unityci/editor:windows-6000.0.43f1-windows-il2cpp-3 -o C:\docker-cache\image.tar
+          }
+        shell: powershell
+
+      # Cache Unity Library
+      - uses: actions/cache@v4
         with:
           path: Library
-          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          key: Library-${{ runner.os }}-${{ hashFiles('Packages/manifest.json', 'ProjectSettings/ProjectVersion.txt') }}
           restore-keys: |
-            Library-
-
-      - name: Create Unity Cache Directory
-        run: |
-          mkdir -p C:/Users/ContainerAdministrator/AppData/Local/Unity/Caches
+            Library-${{ runner.os }}-
 
       # Build
       - name: Build App
@@ -38,8 +61,15 @@ jobs:
           buildName: ChuniXR
           buildsPath: exported
 
-      # Upload exported Android Studio project
+      # Cache built project to avoid re-uploading unchanged builds
+      - uses: actions/cache@v4
+        with:
+          path: exported
+          key: build-output-${{ github.sha }}
+
+      # Upload exported build
       - uses: actions/upload-artifact@v4
         with:
           name: Exported
           path: exported
+          compression-level: 0  # Faster uploads
