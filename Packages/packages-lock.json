@@ -7,13 +7,6 @@
       "dependencies": {},
       "hash": "0412fe09e11d3720197707a935f8114cc2454639"
     },
-    "com.spoiledcat.git": {
-      "version": "1.0.44",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.spoiledcat.com"
-    },
     "com.unity.burst": {
       "version": "1.8.19",
       "depth": 2,
