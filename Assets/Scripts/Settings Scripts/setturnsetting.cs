@@ -21,5 +21,7 @@ public class SetTurnType : MonoBehaviour
             snapTurn.enabled = true;
             continuousTurn.enabled = false;
         }
+        
     }
+    
 }

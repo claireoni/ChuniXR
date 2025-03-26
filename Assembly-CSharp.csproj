@@ -79,6 +79,7 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\Scripts\lightcolliderthing.cs" />
+    <Compile Include="Assets\Scripts\Settings Scripts\changeframerate.cs" />
     <Compile Include="Assets\Scripts\ButtonToKey.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />

@@ -1163,6 +1163,7 @@ GameObject:
   - component: {fileID: 427108618}
   - component: {fileID: 427108617}
   - component: {fileID: 427108620}
+  - component: {fileID: 427108621}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1277,6 +1278,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapTurn: {fileID: 7347985737069706591}
   continuousTurn: {fileID: 6480925242599150403}
+--- !u!114 &427108621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427108615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1fe4d762de3b04aa4faf62e148849a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uwcWindowTexture: {fileID: 969300392}
 --- !u!1 &448926410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5943,12 +5957,24 @@ MonoBehaviour:
     - m_Text: 120hz
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: 60
+    - m_Text: 60hz
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 427108621}
+        m_TargetAssemblyTypeName: SetUwcFrameRate, Assembly-CSharp
+        m_MethodName: Setframerate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1822720783
 MonoBehaviour:
