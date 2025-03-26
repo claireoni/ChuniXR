@@ -555,6 +555,10 @@
       <HintPath>Assets\Plugins\WindowsInput.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>Library\PackageCache\com.spoiledcat.git@a5968714214e\Mono.Posix\Mono.Posix.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -565,6 +569,10 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>Library\PackageCache\com.spoiledcat.git@a5968714214e\sfw\sfw.net.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -581,6 +589,10 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SpoiledCat.Git.Localization">
+      <HintPath>Library\PackageCache\com.spoiledcat.git@a5968714214e\Localization\SpoiledCat.Git.Localization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
