@@ -5,9 +5,17 @@ using uWindowCapture;
 public class setCapturetype : MonoBehaviour
 {
     [SerializeField] private UwcWindowTexture uwcWindowTexture; 
+    private Settingsdata settings; 
+
+    void Start()
+    {
+        settings = Settingsfile.Loadsettings(); 
+        SetType(settings.captureMode); 
+    }
 
     public void SetType(int index)
     {
+
         if (index == 0)
         {
             uwcWindowTexture.captureMode = CaptureMode.Auto;
@@ -28,6 +36,9 @@ public class setCapturetype : MonoBehaviour
         {
             uwcWindowTexture.captureMode = CaptureMode.None;
         }
+
+        settings.captureMode = index;
+        Settingsfile.SaveSettings(settings);
 
         Debug.Log("capture mode set to :) " + uwcWindowTexture.captureMode);
     }
