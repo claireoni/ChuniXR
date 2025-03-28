@@ -5,7 +5,11 @@ Logs/*
 *.log
 Temp/*
 .vscode/*
-# DO NOT INCLUDE THE FUCKING SYMBOLS
+
+# Don't include symbols or system-specific info as it just bloats the repository
 obj/*
 *.htm
 uWindowCapture.log
+
+# Don't include IO dlls
+Assets/IO/*
